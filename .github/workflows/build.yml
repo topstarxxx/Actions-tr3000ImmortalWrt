@@ -104,7 +104,7 @@ jobs:
   build-ssh:
     if: ${{inputs.ssh == true}}
     name: 🚀 编译 (Build) - SSH
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: 释放磁盘空间
         uses: jlumbroso/free-disk-space@main
